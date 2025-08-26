@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-pink-900/20 to-gray-900 pt-32 pb-16">
@@ -24,34 +22,20 @@ export default function HeroSection() {
 
           {/* Description */}
           <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed font-medium">
-            Custom systems built to save you time and money—<br/>
+            Custom systems built to save you time and money—<br />
             so you can focus on what you do best.
           </p>
 
-          {/* CTA Buttons with hot pink gradient */}
+          {/* CTA Section with email input and button */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="px-6 py-4 bg-white border border-gray-300 text-gray-900 placeholder-gray-500 rounded-lg focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-500/20 transition-all duration-300 min-w-[280px]"
+            />
             <button className="px-8 py-4 bg-gradient-to-r from-pink-500 to-rose-500 text-white font-semibold rounded-lg hover:from-pink-600 hover:to-rose-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-pink-500/25 border border-pink-500/20">
-              Get Started Today
+              Get Started
             </button>
-            <button className="px-8 py-4 border-2 border-gray-600 text-gray-300 font-semibold rounded-lg hover:bg-gray-800/50 hover:border-pink-500/50 transition-all duration-300 backdrop-blur-sm">
-              Learn More
-            </button>
-          </div>
-
-          {/* Stats with hot pink accents */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-3xl mx-auto">
-            <div className="text-center p-6 rounded-xl bg-gray-800/30 border border-gray-700/50 backdrop-blur-sm hover:border-pink-500/30 transition-all duration-300">
-              <div className="text-3xl font-bold text-pink-400 mb-2">500+</div>
-              <div className="text-gray-400">Happy Clients</div>
-            </div>
-            <div className="text-center p-6 rounded-xl bg-gray-800/30 border border-gray-700/50 backdrop-blur-sm hover:border-pink-500/30 transition-all duration-300">
-              <div className="text-3xl font-bold text-pink-400 mb-2">95%</div>
-              <div className="text-gray-400">Success Rate</div>
-            </div>
-            <div className="text-center p-6 rounded-xl bg-gray-800/30 border border-gray-700/50 backdrop-blur-sm hover:border-pink-500/30 transition-all duration-300">
-              <div className="text-3xl font-bold text-pink-400 mb-2">24/7</div>
-              <div className="text-gray-400">Support</div>
-            </div>
           </div>
         </div>
       </div>
