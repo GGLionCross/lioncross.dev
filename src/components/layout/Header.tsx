@@ -7,21 +7,21 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo - Left side */}
           <div className="flex items-center">
-                         <Link href="/" className="flex items-center space-x-2 group">
-               <span className="text-white font-bold text-xl tracking-[0.2em] group-hover:text-pink-300 transition-colors duration-300">
-                 LIONCROSS
-               </span>
-               <div className="px-2 py-1 bg-white rounded-md group-hover:bg-pink-300 transition-colors duration-300">
-                 <span className="text-gray-900 font-bold text-xl tracking-[0.2em]">
-                   DEV
-                 </span>
-               </div>
-             </Link>
+            <Link href="/" className="flex items-center space-x-2 group">
+              <span className="text-white font-bold text-xl tracking-[0.2em] group-hover:text-pink-300 transition-colors duration-300">
+                LIONCROSS
+              </span>
+              <div className="px-2 py-1 bg-white rounded-md group-hover:bg-pink-300 transition-colors duration-300">
+                <span className="text-gray-900 font-bold text-xl tracking-[0.2em]">
+                  DEV
+                </span>
+              </div>
+            </Link>
           </div>
 
           {/* Navigation - Right side */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link 
+            {/* <Link 
               href="/packages" 
               className="text-gray-300 hover:text-pink-300 transition-colors duration-300 font-bold"
             >
@@ -40,7 +40,6 @@ export default function Header() {
               Support
             </Link>
             
-            {/* CTA button */}
             <div className="flex items-center ml-8">
                              <Link 
                  href="/contact" 
@@ -48,7 +47,7 @@ export default function Header() {
                >
                  Let's Talk
                </Link>
-            </div>
+            </div> */}
           </nav>
 
           {/* Mobile menu button */}
