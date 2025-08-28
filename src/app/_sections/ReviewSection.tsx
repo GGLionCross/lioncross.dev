@@ -59,7 +59,7 @@ export default function ReviewSection() {
               </div>
 
               {/* Bottom Content - LinkedIn Link */}
-              <div className="text-left">
+              <div className="text-left mt-8">
                 <a
                   href="https://www.linkedin.com/company/doma-luxe-properties/"
                   target="_blank"
