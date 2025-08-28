@@ -22,7 +22,7 @@ export default function HeroSection() {
 
           {/* Description */}
           <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed font-medium">
-            Custom systems built to save you time and money—<br />
+            Tailored systems built to save you time and money—<br />
             so you can focus on what you do best.
           </p>
 
