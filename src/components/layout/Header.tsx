@@ -8,11 +8,11 @@ export default function Header() {
           {/* Logo - Left side */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2 group">
-              <span className="text-white font-bold text-xl tracking-[0.2em] group-hover:text-pink-300 transition-colors duration-300">
+              <span className="text-white font-bold text-xl tracking-[0.2em] group-hover:text-pink-400 transition-colors duration-150">
                 LIONCROSS
               </span>
-              <div className="px-2 py-1 bg-white rounded-md group-hover:bg-pink-300 transition-colors duration-300">
-                <span className="text-gray-900 font-bold text-xl tracking-[0.2em]">
+              <div className="px-2 py-1 bg-white rounded-md group-hover:bg-gradient-to-l group-hover:from-pink-400 group-hover:to-rose-400 transition-all duration-150">
+                <span className="text-gray-900 font-bold text-xl tracking-[0.2em] group-hover:text-gray-900 transition-colors duration-150">
                   DEV
                 </span>
               </div>
