@@ -17,19 +17,19 @@ export default function AboutSection() {
             <div className="space-y-8">
               <div>
                 <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
-                  Who Am I
+                  Hi, I'm Lionel
                 </h2>
                 <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                  With over a decade of experience in real estate technology, I've helped hundreds of businesses
-                  streamline their operations through custom automation solutions.
+                  My journey has consisted of working with businesses on a variety of automations—
+                  data gathering, custom spreadsheets, CRM workflows, app integrations, etc.
                 </p>
                 <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                  My approach combines deep industry knowledge with cutting-edge technology to deliver systems
-                  that not only work—they transform how you do business.
+                  Automation tools and AI are constantly improving, creating opportunities every day!
+                  Together, we'll discover the ones that will save you the most time and money.
                 </p>
                 <p className="text-lg text-gray-300 leading-relaxed mb-8">
-                  Every solution is tailored to your specific needs, ensuring you get exactly what your business
-                  requires to thrive in today's competitive market.
+                  Partner with me to forever begin eliminating busywork you don't enjoy, implementing automations
+                  that scale with your business. And your team!
                 </p>
               </div>
             </div>
